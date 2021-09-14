@@ -102,24 +102,3 @@
         cursor: pointer;
     }
 }
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color:black ;
-    opacity: .9;
-    margin-top: 5px;
-    color: white;
-    flex-direction: column;
-    padding: 10px;
-}
-.footer-span{
-    cursor: pointer;  
-    text-shadow: .3px .3px 2px goldenrod;
-}
-
-.footer-name{
-    cursor: pointer;
-    text-shadow: .3px .3px 2px goldenrod;
-}

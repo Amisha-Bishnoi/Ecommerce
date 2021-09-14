@@ -1,21 +1,21 @@
-import newtop from './images/newtop.jpg';
-import jeans from './images/jeans.jpg';
-import skirt from './images/skirt.jpeg';
-import jogger from './images/jogger.jpg';
-import top2 from './images/top2.jpg'
-import top3 from './images/top3.jpg'
-import top4 from './images/top4.jpg'
-import jeans2 from './images/jeans2.webp';
-import jeans3 from './images/jeans3.jpg';
-import jeans4 from './images/jeans4.webp';
-import skirt2 from './images/skirt2.jpg';
-import skirt3 from './images/skirt3.jpg';
-import skirt4 from './images/skirt4.jpg';
-import jogger2 from './images/jogger2.jpg';
-import jogger3 from './images/jogger3.jpg';
-import jogger4 from './images/jogger4.jpg';
+import newtop from '../assests/images/newtop.jpg';
+import jeans from '../assests/images/jeans.jpg';
+import skirt from '../assests/images/skirt.jpeg';
+import jogger from '../assests/images/jogger.jpg';
+import top2 from '../assests/images/top2.jpg'
+import top3 from '../assests/images/top3.jpg'
+import top4 from '../assests/images/top4.jpg'
+import jeans2 from '../assests/images/jeans2.webp';
+import jeans3 from '../assests/images/jeans3.jpg';
+import jeans4 from '../assests/images/jeans4.webp';
+import skirt2 from '../assests/images/skirt2.jpg';
+import skirt3 from '../assests/images/skirt3.jpg';
+import skirt4 from '../assests/images/skirt4.jpg';
+import jogger2 from '../assests/images/jogger2.jpg';
+import jogger3 from '../assests/images/jogger3.jpg';
+import jogger4 from '../assests/images/jogger4.jpg';
 
-  export const carddata = [
+  export const cardData = [
     {
         id:"1",
         cName : "Tops",
@@ -155,4 +155,4 @@ import jogger4 from './images/jogger4.jpg';
 
 ]
 
-export default carddata;
+export default cardData;

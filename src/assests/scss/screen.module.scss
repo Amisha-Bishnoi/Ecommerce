@@ -1,0 +1,162 @@
+$tablet-width-min: 37.5em; // 600px
+$desktop-width-min: 69.5em; // 1112px
+
+@mixin mobile {
+  @media (max-width: #{$tablet-width-min}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$desktop-width-min}) {
+    @content;
+  }
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    @content;
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    @content;
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    @content;
+  }
+
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* ----------- iPad Pro 10.5" ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* ----------- iPad Pro 12.9" ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin kindle {
+  @media (max-width: 1155px) and (min-width: 1112px) {
+    @content;
+  }
+}
+
+@mixin MAX1377 {
+  @media screen and (max-width: 1377px) {
+    @content;
+  }
+}
+
+@mixin MAX1285 {
+  @media screen and (max-width: 1285px) {
+    @content;
+  }
+}
+
+@mixin MAX1281 {
+  @media (min-width: 1281px) {
+    @content;
+  }
+}
+
+@mixin MAX1129 {
+  @media screen and (max-width: 1129px) {
+    @content;
+  }
+}
+
+@mixin MAX1050 {
+  @media screen and (max-width: 1050px) {
+    @content;
+  }
+}
+
+@mixin MAX1024 {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin MAX850 {
+  @media screen and (max-width: 850px) {
+    @content;
+  }
+}
+
+@mixin MAX840 {
+  @media (max-width: 840px) {
+    @content;
+  }
+}
+
+@mixin MAX700 {
+  @media (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin MAX520 {
+  @media screen and (max-width: 520px) {
+    @content;
+  }
+}
+
+@mixin MAX400 {
+  @media screen and (max-width: 400px) {
+    @content;
+  }
+}
+
+:export {
+  mobile: $tablet-width-min;
+  tablet: $desktop-width-min;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
-import './about.css';
-import Footer from './Footer';
+import './index.css';
 
 const About = () => {
     return (
@@ -13,7 +12,6 @@ const About = () => {
 
             Sincerely,
             Name, Amisha</p>
-            <Footer />
         </div>
         
     )
