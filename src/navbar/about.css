@@ -1,0 +1,12 @@
+.about-heading{
+    color: rgb(140, 150, 97);
+    padding: 12px 10px;
+    font-size: 20px;  
+    text-shadow: 1px 1px 2px  blanchedalmond
+
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}

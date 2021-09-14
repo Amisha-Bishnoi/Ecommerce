@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    
+}
+.logo {
+    font-size: 40px;
+    font-family: High Tower Text;
+    cursor: pointer;
+    text-shadow: -1px 1px 2px goldenrod
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.link,
+.link-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.link-button {
+    padding: 10px 20px;
+    border: 1px solid rgb(80, 67, 72);
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(73, 73, 73);
+}
+.link:hover{
+    color: goldenrod;
+}
+.link-button:hover{
+    opacity: .7;
+    border-color: white;
+    color: goldenrod;
+}
+.mobile-menu-icon {
+    display: none;
+}
+@media screen and (max-width: 780px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        font-size: 25px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .nav-links-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: rgb(168, 151, 158);
+        left: 0;
+        top: 75px;
+        width: 100%;
+    }
+
+    .link-mobile,
+    .link-button-mobile {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+    }
+    li {
+        background-color: rgb(143, 125, 125);
+    }
+    .is-mobile-color {
+        background-color: cornflowerblue;
+        border-top: 1px solid #fff;
+    }
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: black;
+        border: none;
+        outline: none;
+        top: 20px;
+        right: 5px;
+        
+    background-color: rgb(98, 98, 98);
+        cursor: pointer;
+    }
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:black ;
+    opacity: .9;
+    margin-top: 5px;
+    color: white;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer-span{
+    cursor: pointer;  
+    text-shadow: .3px .3px 2px goldenrod;
+}
+
+.footer-name{
+    cursor: pointer;
+    text-shadow: .3px .3px 2px goldenrod;
+}
