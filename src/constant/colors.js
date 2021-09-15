@@ -1,4 +1,4 @@
 export const colorCodes = {
-    WHITE: '#fff',
+    WHITE: '#fff', 
     BLACK: '#000',
 }
