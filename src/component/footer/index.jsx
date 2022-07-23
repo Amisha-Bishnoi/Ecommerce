@@ -101,7 +101,7 @@ const Footer = ({ history }) => {
             </Holder>
 
             <div className="footer-bottom">
-                Copyright &copy; Amisha Godara 2020.
+                Copyright &copy; Test 2020.
         </div>
         </Container>
     )
